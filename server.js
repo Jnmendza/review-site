@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const app = express();
 const db = require('./db');
 
-// Middleware
+// Middleware goes underneath
 app.use(express.json())
 
 // Get all Restaurants
